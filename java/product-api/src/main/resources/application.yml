@@ -2,4 +2,4 @@ spring:
   application:
     name: product-api
 server:
-  port: 8083
+  port: ${PORT:8081}
